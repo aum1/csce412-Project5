@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="combined_professional_styles.css" id="stylesheet-swapper"></link>
+        <script src="buttonscripts.js"></script>
+        <script src="clouds.js"></script>
+        <script src="style-swap.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+        <title>Aum Palande</title>
+    </head>
+    <body>
+        <div class="navigation-bar-div">
+            <button type="button" class="professional home-button" onclick="homeButtonClicked()">Aum Palande</button>
+            <button type="button" class="professional home-button" onclick="portfolioButtonClicked()">Portfolio</button>
+            <button type="button" class="professional home-button" onclick="qualificationsButtonClicked()">Qualifications</button>
+            <button type="button" class="professional home-button" onclick="serviceButtonClicked()">Service</button>
+            <button type="button" class="professional home-button" onclick="aiButtonClicked()">AI-generated</button>
+
+            <a class="fun-style" href="index.html"><img src="image/darkblue_name_pipe.png" width="150" height="150"></a>
+            <a class="fun-style" href="portfolio.html"><img src="image/darkblue_portfolio_pipe.png" width="150" height="150"></a>
+            <a class="fun-style" href="qualifications.html"><img src="image/darkblue_qualifications_pipe.png" width="150" height="150"></a>
+            <a class="fun-style" href="service.html"><img src="image/darkblue_service_pipe.png" width="150" height="150"></a>
+            <a class="fun-style" href="ai-generated.html"><img src="image/darkblue_aigenerated_pipe.png" width="150" height="150"></a>
+
+            <button type="button" class="style-swapper animation-button" onclick="toggleStyle()">
+                <img src="image/style_swap.png" width="75" height="75">
+            </button>
+        </div>
+
+        <div class="intro-div">
+            <h1>Portfolio</h1>
+            <p class="portfolio-intro-text">
+                I am particularly interested in data science, low-level coding, and overall software engineering. However, I have found a recent love for Unity game design. I was able to experience
+                working in an actual company setting at <a href="https://www.sabre.com/">Sabre Corporation</a> as a Software Engineering Intern. I still want to get more experience in overall game development and software engineering as I grow in my career.
+                Thanks to <a href="https://itch.io/">Itch.Io</a>, I can host some basic games I created on Unity to explore the engine and C#. Currently, I am working on more in-depth games and other projects that take me out of my comfort zone.
+            </p>
+            <p class="portfolio-intro-text">
+                Along with Unity, I have done some projects in Android Studio. My largest personal project was a <a href="https://en.wikipedia.org/wiki/Camera_lucida">Camera Lucida</a> App. This app allowed you to select an image which overlayed your camera. The idea was 
+                to create a drawing tool that allowed for easy tracing of an image. There were options for size and transparency, and eventually I hope to add it on the Google Play Store. 
+                My other application was a entry into a Hackathon called <a href="https://hack2tomorrow.github.io/">Hack2Tomorrow</a>, a hackathon during quarantine that was held by <a href="https://www.berkeley.edu/">UC Berkeley</a> graduates. We ended up winning with our app CoronaMap. 
+                It was an app that gave a map of nearby testing centers, with information about wait time and appointment status.
+            </p>
+        </div>
+
+        <div class="cloud-div">
+        </div>
+
+        <div class="button-div">
+            <button type="button" class="professional home-button" onclick="resumeButtonClicked()">Resume</button>
+            <button type="button" class="professional home-button" onclick="contactMeButtonClicked()">Contact Me</button>
+
+            <button type="button" class="fun-style main-button" id="resume-button" onclick="resumeButtonClicked()">
+                <img src="image/resume-mariobrick.png" alt="MarioBrick" width="240" height = "120">
+            </button>
+            <button type="button" class="fun-style main-button" id="contactme-button" onclick="contactMeButtonClicked()">
+                <img src="image/contactme-mariobrick.png" alt="MarioBrick" width="240" height="120">
+            </button>
+        </div>
+
+        <div class="link-buttons-div">
+            <button type="button" class="link-button" id="linkedin-button" onclick="linkedinButtonClicked()">
+                <img src="image/linkedin_logo.png" alt="MarioBrick" width="60" height="60">
+            </button>
+            <button type="button" class="link-button" id="github-button" onclick="githubButtonClicked()">
+                <img src="image/github_logo.png" alt="MarioBrick" width="60" height="60">
+            </button>
+        </div>
+
+        <div class="unity-projects-div">
+            <table class="unity-table">
+                <tr>
+                    <td>
+                        <p class="game-description">
+                            Here is one of my first developed games, a rendition of Flappy Bird, Flappy Goku. This was an exploration game, where I was getting used to Unity Engine. In the future, I will use the skills I learned here to make more complicated games.
+                        </p>
+                    <td>
+                        <iframe frameborder="0" src="https://itch.io/embed-upload/6432859?color=333333" allowfullscreen="" width="960" height="500"><a href="https://aum1.itch.io/flappy-goku">Play Flappy Goku</a></iframe>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="game-description">
+                            This game is called Pii Tanks, similar to Wii Tanks, a popular game on the Nintendo Wii. While this game is still not polished, it gave me experience with projectiles and lots of collisions. This is also one of the first "shooter" games that I made.
+                        </p>
+                    </td>
+                    <td>
+                        <iframe frameborder="0" src="https://itch.io/embed-upload/6555729?color=333333" allowfullscreen="" width="960" height="510"><a href="https://aum1.itch.io/pii-tanks">Play Pii Tanks on itch.io</a></iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

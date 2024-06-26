@@ -1,0 +1,129 @@
+/* Index */
+.home-button {
+    border:8px solid #EFBC98;
+    color:#592720;
+    font-size: 15px;
+    padding: 20px;
+    width: 150px;
+}
+.home-button:hover {
+    background: #EFBC98;
+    color:#ffffff;
+}
+.button-div {
+    padding-bottom: 20px;
+    text-align: center;    
+}
+h1 {
+    color: #ffffff;; 
+    text-align: center;
+}
+h2 {
+    color:#ffffff;;
+    text-align: center;
+}
+body {
+    background-color: #592720;
+}
+p {
+    color:#ffffff;
+}
+#linkedin-button {
+    border: none;
+    outline: none;
+    background:none;
+}
+#github-button {
+    border: none;
+    outline: none;
+    background:none;
+}
+.fun-style {
+    display: none;
+}
+.self-description-table {
+    padding-left: 80px;
+    padding-right: 80px;
+    border-spacing: 100px;
+}
+.style-swapper {
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-right:50px;
+    float: right;
+}
+a {
+    color:#ffffff;
+}
+
+/* Portfolio */
+.link-buttons-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.portfolio-intro-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    font-size: 20px;
+}
+.unity-table {
+    padding-left: 80px;
+    padding-right: 80px;
+    border-spacing: 100px;
+}
+.game-description {
+    font-size: 20px;
+}
+
+/* Qualifications */
+.skills-description {
+    text-align: center;
+    color:#ffffff;
+    width: 30em;
+}
+.self-description-table {
+    padding-left: 80px;
+    padding-right: 80px;
+    border-spacing: 100px;
+}
+.skills-image {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-left: 350px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+.skills-table-professional {
+    padding-left: 100px;
+    padding-right: 80px;
+    padding-bottom: 0px;
+    border-spacing: 100px;
+    border-collapse: collapse;
+}
+.skills-after-description-div {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.skills-after-description-text {
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    font-size: 20px;
+}
+
+/* Service */
+.service-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 100px;
+}
+.service-description {
+    font-size: 20px;
+    width:20em;
+}
